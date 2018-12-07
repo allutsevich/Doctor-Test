@@ -1,0 +1,110 @@
+@import url(reset.css);
+
+@media screen and (max-width: 1024px) {
+    
+    .center {width: 780px;}
+    
+    .title__head {padding-left: 81px;}
+    
+    .content__left {
+        width: 620px;
+        float: none;
+        margin: 0 auto;
+    }
+    
+    .content__right {
+        float: none;
+        margin: 0 auto;
+        clear: both;
+    }
+    
+    .invisible-box {margin-right: 0;}
+    .next-chapter__link {margin-right: 80px;}
+    
+    .line-first {left: 195px;}
+    .line-second {left: 390px;}
+    .line-third {right: 195px;}
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+    .center {width: 600px;}
+    
+    .title__absolute {
+        font-size: 50px;
+        left: -70px;
+    }
+    
+    .title__head {
+        font-size: 34px;
+        padding-top: 106px;
+        padding-left: 0;
+    }
+    
+    .content__left, .content__right {width: 600px;}
+    .content-box {width: 260px;}
+    .content-box__bignumber {font-size: 80px;}
+    
+    .content-box__bigtext {
+        font-size: 18px;
+        line-height: 26px;
+        padding-left: 60px;
+    }
+    
+    .content-box__text {
+        -webkit-transform: translate(9%, -50%);
+        transform: translate(9%, -50%);
+    }
+    
+    .invisible-box {margin-left: 18px;}
+    .next-chapter__link {margin-right: 27px;}
+    .line-second {display: none;}
+    
+}
+
+@media screen and (max-width: 414px) {
+    
+    .center {width: 70%;}
+    
+    .title__absolute {
+        font-size: 32px;
+        left: -50px;
+    }
+    
+    .title__head {
+        font-size: 20px;
+        line-height: 30px;
+        padding-top: 112px;
+    }
+    
+    .content__left, .content__right {width: 100%;}
+    .content__right {padding-left: 0;}
+    
+    .content-box {
+        float: none;
+        margin: 0 auto 40px;
+    }
+    
+    .next-chapter__link {
+        float: none;
+        margin: 0 auto;
+    }
+    
+    .content-box__bigtext {font-size: 16px;}
+    .content-box__text {font-size: 14px;}
+    .content-box__text {transform: translate(15%, -50%);} 
+    
+    .content-box__text {
+        -webkit-transform: translate(15%, -50%);
+        transform: translate(15%, -50%);
+    }
+    
+    .commas-last {right: 18px;}
+    
+}
+
+@media screen and (max-width: 320px) {.center {width: 90%;}}
+    
+    
+    
